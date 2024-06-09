@@ -31,6 +31,9 @@
 //    @Mock
 //    private AuthenticationRepository authenticationRepository;
 //
+//    @Mock
+//    private  AuthenticationManager authenticationManager;
+//
 //
 //    @Mock
 //    private JwtTokenUtil jwtTokenUtil;
@@ -42,7 +45,14 @@
 //    void login() {
 //        Mockito.when(userService.findUserByUserName(USERNAME)).thenReturn(Optional.of(USER));
 //        Mockito.when(jwtTokenUtil.generatedToken(USER)).thenReturn(TOKEN);
-//        assertEquals(AUTH_RS, authenticationService.login(AUTH_RQ));
+//        Mockito.when(authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
+//                USERNAME,
+//                PASSWORD
+//        ))).thenReturn(new UsernamePasswordAuthenticationToken(
+//                        USERNAME,
+//                        PASSWORD
+//        ));
+//        assertEquals(TOKEN, authenticationService.login(USERNAME, PASSWORD));
 //        Mockito.verify(authenticationRepository, Mockito.times(1)).putAuth(TOKEN, USERNAME);
 //    }
 //}

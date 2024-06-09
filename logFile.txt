@@ -129,3 +129,29 @@
 [ERROR] - [2024-06-09T09:49:57.116919] Delete Error: Invalid token - user isn't logged.
 [INFO] - [2024-06-09T09:49:56.973627] File |'FileName'| from User {'Username'} success upload
 [ERROR] - [2024-06-09T09:49:57.171483] Download Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T15:42:46.351681] User {'Username'} get list all files
+[ERROR] - [2024-06-09T15:42:51.344050] GetAllFiles Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-09T16:25:10.034373] Success login from User |'Username'|
+[INFO] - [2024-06-09T16:28:24.659593] File |'FileName'| from User {'Username'} success upload
+[INFO] - [2024-06-09T16:31:33.203728] File |'FileName'| from User {'Username'} success upload
+[ERROR] - [2024-06-09T16:32:12.483943] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T16:32:33.559982] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[ERROR] - [2024-06-09T16:33:04.793617] Delete Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T16:33:47.926155] User {'FileName'} download File |'Username'|;
+[ERROR] - [2024-06-09T16:34:40.796955] FileNameEdit Error: File |'FileName'| from User {'Username'} wasn't edit;
+[ERROR] - [2024-06-09T16:35:10.439818] FileNameEdit Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T16:35:26.730471] User {'Username'} get list all files
+[ERROR] - [2024-06-09T16:36:15.696472] FileNameEdit Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T16:36:15.703279] User {'Username'} get list all files
+[INFO] - [2024-06-09T16:36:15.708016] User {'FileName'} download File |'Username'|;
+[ERROR] - [2024-06-09T16:36:15.710879] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T16:36:15.713033] FileNameEdit Error: File |'FileName'| from User {'Username'} wasn't edit;
+[ERROR] - [2024-06-09T16:36:15.715278] Delete Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[ERROR] - [2024-06-09T16:36:15.717444] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[INFO] - [2024-06-09T16:36:15.681222] File |'FileName'| from User {'Username'} success upload
+[ERROR] - [2024-06-09T16:36:15.772647] Download Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T16:41:45.525539] Success login from User |'user'|
+[INFO] - [2024-06-09T16:41:57.564478] User {'user'} get list all files
+[INFO] - [2024-06-09T16:43:19.162683] Success login from User |'user'|
+[INFO] - [2024-06-09T16:43:30.816791] User {'user'} get list all files
+[INFO] - [2024-06-09T16:43:44.362632] User {'user'} edit fileName of File |'testcontent3'| on new fileName |'TESTmyRQ1'|

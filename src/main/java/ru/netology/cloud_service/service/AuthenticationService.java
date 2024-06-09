@@ -27,11 +27,11 @@ public class AuthenticationService {
     private String headerName;
 
 
-    public JwtResponse login(JwtRequest jwtRequest) {
+    public String login(String userName, String password) {
         try {
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
-                    jwtRequest.getUserName(),
-                    jwtRequest.getPassword()
+                    userName,
+                    password
             ));
         } catch (BadCredentialsException e) {
             logger.log(LogStatus.ERROR, "Bad credentials: Uncorrected login or password");
@@ -39,11 +39,11 @@ public class AuthenticationService {
                     "Bad credentials: Uncorrected login or password"
             );
         }
-        User user = userService.findUserByUserName(jwtRequest.getUserName()).get();
+        User user = userService.findUserByUserName(userName).get();
         String token = jwtTokenUtil.generatedToken(user);
         authRepository.putAuth(token, user.getUserName());
         logger.log(LogStatus.INFO, String.format("Success login from User |'%s'|", user.getUserName()));
-        return new JwtResponse(token);
+        return token;
     }
 
     public String getUsernameByToken(String jwtToken) {
