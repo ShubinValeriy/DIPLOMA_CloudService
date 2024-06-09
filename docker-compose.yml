@@ -1,0 +1,33 @@
+version: '1.0'
+
+services:
+
+  server:
+    image: cloud_app
+    container_name: 'cloud-server'
+    build: ./
+    ports:
+      - "5555:5555"
+    depends_on:
+      - database
+    environment:
+        SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/cloud_db_new
+        SPRING_DATASOURCE_USERNAME: v.shubin
+        SPRING_DATASOURCE_PASSWORD: Bnk53lfq
+        SPRING_JPA_HIBERNATE_DDL_AUTO: update
+        SPRING_LIQUIBASE_URL: jdbc:postgresql://database:5432/cloud_db_new
+        SPRING_LIQUIBASE_USER: v.shubin
+        SPRING_LIQUIBASE_PASSWORD: Bnk53lfq
+
+  database:
+    image: postgres
+    container_name: 'cloud_db'
+    environment:
+      POSTGRES_DB: cloud_db_new
+      POSTGRES_USER: v.shubin
+      POSTGRES_PASSWORD: Bnk53lfq
+    volumes:
+      - ./infrastructure/db/create_db.sql:/docker-entrypoint-initdb.d/create_db.sql
+    ports:
+      - "5432:5432"
+

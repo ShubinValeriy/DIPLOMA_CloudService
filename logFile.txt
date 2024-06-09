@@ -1,0 +1,131 @@
+[INFO] - [2024-05-19T20:50:25.333325] File from user {TEST} success upload
+[INFO] - [2024-05-19T20:53:13.007180] File from user {TEST} success upload
+[INFO] - [2024-05-21T19:02:10.246127] File testcontent from User {TEST} success delete
+[ERROR] - [2024-05-21T19:02:24.178676] File testcontent from User {TEST}   not found;
+[INFO] - [2024-05-21T19:33:17.756601] File from user {TEST} success upload
+[INFO] - [2024-05-21T19:33:23.397120] File testcontent from User {TEST} success delete
+[INFO] - [2024-05-21T19:33:26.007238] File from user {TEST} success upload
+[INFO] - [2024-05-21T19:50:32.504251] User {TEST} download File testcontent
+[INFO] - [2024-06-02T10:14:38.024174] File |testcontent1 from User {TEST} success upload
+[INFO] - [2024-06-02T10:14:55.427458] File |testcontent1| from User {TEST} success delete
+[ERROR] - [2024-06-02T10:15:29.548935] Delete Error: File |testcontent1| from User {TEST} not found in DataBase;
+[INFO] - [2024-06-02T10:23:14.650533] User {TEST} edit fileName of File |testcontent| on new fileName |TESTmyRQ|
+[ERROR] - [2024-06-02T10:23:55.652452] Edit File Name Error: File |testcontent| from User {TEST} not found in DataBase;
+[INFO] - [2024-06-02T10:48:47.338110] User {TEST} get list all files
+[INFO] - [2024-06-02T11:03:21.810904] User {TEST} get list all files
+[INFO] - [2024-06-02T11:03:26.334308] User {TEST} get list all files
+[INFO] - [2024-06-02T11:08:02.665220] File |testcontent1 from User {TEST} success upload
+[INFO] - [2024-06-02T11:08:11.239893] File |testcontent1| from User {TEST} success delete
+[INFO] - [2024-06-02T11:08:14.456037] File |testcontent1 from User {TEST} success upload
+[INFO] - [2024-06-02T11:08:40.325966] User {TEST} download File |testcontent1|
+[INFO] - [2024-06-02T11:10:04.208120] User {TEST} edit fileName of File |testcontent1| on new fileName |TESTmyRQ1|
+[INFO] - [2024-06-02T11:10:19.463941] User {TEST} get list all files
+[INFO] - [2024-06-02T11:42:32.807525] File |testcontent1 from User {TEST} success upload
+[INFO] - [2024-06-02T11:42:35.860209] File |testcontent1 from User {TEST} success upload
+[INFO] - [2024-06-02T11:42:58.739977] File |testcontent1 from User {TEST} success upload
+[ERROR] - [2024-06-02T11:43:08.230531] Delete Error: File |testconten| from User {TEST} not found in DataBase;
+[ERROR] - [2024-06-02T11:43:41.963345] Delete Error: File |testcontent| from User {TEST} not found in DataBase;
+[INFO] - [2024-06-02T11:43:47.546819] File |testcontent1| from User {TEST} success delete
+[ERROR] - [2024-06-02T11:43:54.760658] Download Error: File |testcontent| from User {TEST} not found in DataBase;
+[INFO] - [2024-06-02T12:34:51.900662] User {TEST} download File |TESTmyRQ|
+[INFO] - [2024-06-05T21:28:17.277505] File |testcontent1 from User {user} success upload
+[INFO] - [2024-06-06T20:12:35.831117] Success login from User |'user'|
+[INFO] - [2024-06-06T20:25:51.636284] Success login from User |'user'|
+[INFO] - [2024-06-06T20:33:46.564626] Success delete token for User |'user'|
+[INFO] - [2024-06-06T20:33:51.660403] Success delete token for User |'user'|
+[INFO] - [2024-06-06T20:33:53.404068] Success delete token for User |'user'|
+[INFO] - [2024-06-06T20:34:45.202555] Success login from User |'user'|
+[INFO] - [2024-06-08T07:55:25.496105] Success login from User |'user'|
+[INFO] - [2024-06-08T07:58:32.231153] Success login from User |'user'|
+[INFO] - [2024-06-08T07:58:44.309690] File |testcontent1 from User {user} success upload
+[INFO] - [2024-06-08T07:59:47.915115] Success delete token for User |'user'|
+[ERROR] - [2024-06-08T07:59:52.606510] Save Error: Invalid token. File not uploaded
+[INFO] - [2024-06-08T08:28:49.967136] Success login from User |'user'|
+[INFO] - [2024-06-08T08:29:02.965216] File |testcontent1 from User {user} success upload
+[INFO] - [2024-06-08T08:30:48.054816] File |testcontent2 from User {user} success upload
+[INFO] - [2024-06-08T08:32:37.665066] Success login from User |'user'|
+[INFO] - [2024-06-08T08:32:57.662015] File |testcontent2 from User {user} success upload
+[INFO] - [2024-06-08T08:32:58.508811] File |testcontent2 from User {user} success upload
+[INFO] - [2024-06-08T08:32:59.191579] File |testcontent2 from User {user} success upload
+[INFO] - [2024-06-08T08:35:14.813108] File |testcontent1| from User {user} success delete
+[ERROR] - [2024-06-08T08:35:17.276056] Delete Error
+[ERROR] - [2024-06-08T08:35:24.319449] Delete Error
+[INFO] - [2024-06-08T09:13:21.774017] Success login from User |'user'|
+[INFO] - [2024-06-08T09:13:33.591722] File |testcontent2 from User {user} success upload
+[ERROR] - [2024-06-08T09:13:34.773579] Save Error: File |'testcontent2'| from User {'user'} is already in the database
+[ERROR] - [2024-06-08T09:13:49.849538] JWT Token from User |'null'| has expired
+[ERROR] - [2024-06-08T09:14:02.590154] Delete Error: File |testcontent1| from User {user} not found in DataBase;
+[ERROR] - [2024-06-08T09:14:14.203467] Delete Error: File |testcontent1| from User {user} not found in DataBase;
+[ERROR] - [2024-06-08T09:14:17.658236] Save Error: File |'testcontent2'| from User {'user'} is already in the database
+[INFO] - [2024-06-08T09:14:25.739688] File |testcontent2| from User {user} success delete
+[INFO] - [2024-06-08T09:14:43.838039] File |testcontent1 from User {user} success upload
+[INFO] - [2024-06-08T09:14:47.400487] File |testcontent2 from User {user} success upload
+[INFO] - [2024-06-08T09:23:35.691774] Success login from User |'user'|
+[ERROR] - [2024-06-08T09:23:50.021392] Save Error: File |'testcontent2'| from User {'user'} is already in the database
+[INFO] - [2024-06-08T09:23:56.312145] File |testcontent3 from User {user} success upload
+[INFO] - [2024-06-08T09:59:59.558316] Success login from User |'user'|
+[ERROR] - [2024-06-08T10:00:42.807240] Save Error: File |'testcontent3'| from User {'user'} is already in the database
+[INFO] - [2024-06-08T10:00:54.095524] File |'testcontent4'| from User {'user'} success upload
+[INFO] - [2024-06-08T10:01:36.786755] File |'testcontent2'| from User {'user'} success Delete;
+[ERROR] - [2024-06-08T10:01:38.821544] Delete Error: File |'testcontent2'| from User {'user'} not found in DataBase;
+[ERROR] - [2024-06-08T10:02:36.130358] Download Error: File |'TESTmyRQ'| from User {'user'} not found in DataBase;
+[INFO] - [2024-06-08T10:02:55.876689] User {'testcontent4'} download File |'user'|;
+[INFO] - [2024-06-08T10:04:04.933526] User {'user'} edit fileName of File |'testcontent4'| on new fileName |'TESTmyRQ1'|
+[ERROR] - [2024-06-08T10:04:09.858282] FileNameEdit Error: File |'testcontent4'| from User {'user'} not found in DataBase;
+[INFO] - [2024-06-08T10:04:59.097650] User {'user'} get list all files
+[INFO] - [2024-06-08T10:05:18.200125] User {'user'} get list all files
+[INFO] - [2024-06-08T10:55:34.875942] Success login from User |'user'|
+[INFO] - [2024-06-08T11:10:59.338488] Success login from User |'user'|
+[INFO] - [2024-06-08T11:11:26.085733] File |'testcontent4'| from User {'user'} success upload
+[INFO] - [2024-06-08T11:29:54.008241] Success login from User |'user'|
+[INFO] - [2024-06-08T11:31:36.549042] Success login from User |'user'|
+[INFO] - [2024-06-08T11:32:00.931773] File |'testcontent7'| from User {'user'} success upload
+[ERROR] - [2024-06-08T11:32:03.396816] Save Error: File |'testcontent7'| from User {'user'} is already in the database
+[ERROR] - [2024-06-08T11:32:16.671201] Save Error: File |'testcontent7'| from User {'user'} is already in the database
+[ERROR] - [2024-06-08T11:32:19.709969] Save Error: File |'testcontent7'| from User {'user'} is already in the database
+[INFO] - [2024-06-08T11:34:33.475995] Success login from User |'user'|
+[ERROR] - [2024-06-08T11:34:56.501030] Save Error: File |'testcontent7'| from User {'user'} is already in the database
+[INFO] - [2024-06-08T11:35:32.246067] Success login from User |'user'|
+[INFO] - [2024-06-08T11:43:28.014031] Success login from User |'user'|
+[INFO] - [2024-06-08T11:43:37.922678] Success delete token for User |'user'|
+[ERROR] - [2024-06-08T11:43:49.591555] Save Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-08T22:18:01.356577] Success login from User |'Username'|
+[ERROR] - [2024-06-09T07:37:27.803287] Save Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T07:39:16.578077] Save Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T07:40:39.219199] Save Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-09T07:44:26.645755] File |'FileName'| from User {'Username'} success upload
+[INFO] - [2024-06-09T07:50:33.326512] File |'FileName'| from User {'Username'} success upload
+[INFO] - [2024-06-09T08:00:02.387323] File |'FileName'| from User {'Username'} success upload
+[ERROR] - [2024-06-09T08:03:14.096377] Save Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-09T08:05:09.083309] File |'FileName'| from User {'Username'} success upload
+[ERROR] - [2024-06-09T08:05:38.795258] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T08:09:51.236960] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T08:20:27.812225] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[ERROR] - [2024-06-09T08:22:34.657491] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[ERROR] - [2024-06-09T08:22:37.754703] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T08:23:37.675734] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[ERROR] - [2024-06-09T08:24:57.460092] Delete Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T08:37:00.763312] Delete Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[ERROR] - [2024-06-09T08:37:45.874952] Delete Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T08:44:23.266562] User {'FileName'} download File |'Username'|;
+[ERROR] - [2024-06-09T08:45:03.153159] Download Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T08:45:41.615113] Download Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[ERROR] - [2024-06-09T08:49:49.142264] FileNameEdit Error: File |'FileName'| from User {'Username'} wasn't edit;
+[ERROR] - [2024-06-09T08:51:08.996383] FileNameEdit Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T08:52:32.685238] FileNameEdit Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T08:55:46.635171] User {'Username'} get list all files
+[ERROR] - [2024-06-09T08:56:38.494769] GetAllFiles Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T09:49:57.091801] FileNameEdit Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[INFO] - [2024-06-09T09:49:57.095862] User {'Username'} get list all files
+[ERROR] - [2024-06-09T09:49:57.098490] Download Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-09T09:49:57.100948] User {'FileName'} download File |'Username'|;
+[ERROR] - [2024-06-09T09:49:57.103227] Save Error: File |'FileName'| from User {'Username'} is already in the database
+[ERROR] - [2024-06-09T09:49:57.105109] FileNameEdit Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T09:49:57.107719] FileNameEdit Error: File |'FileName'| from User {'Username'} wasn't edit;
+[ERROR] - [2024-06-09T09:49:57.109716] Save Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T09:49:57.111771] Delete Error: File |'FileName'| from User {'Username'} not found in DataBase;
+[ERROR] - [2024-06-09T09:49:57.113386] GetAllFiles Error: Invalid token - user isn't logged.
+[ERROR] - [2024-06-09T09:49:57.115364] Delete Error: File |'FileName'| from User {'Username'} wasn't delete;
+[ERROR] - [2024-06-09T09:49:57.116919] Delete Error: Invalid token - user isn't logged.
+[INFO] - [2024-06-09T09:49:56.973627] File |'FileName'| from User {'Username'} success upload
+[ERROR] - [2024-06-09T09:49:57.171483] Download Error: File |'FileName'| from User {'Username'} not found in DataBase;
